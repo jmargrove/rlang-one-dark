@@ -1,0 +1,21 @@
+{
+  "name": "rlang-one-dark",
+  "displayName": "rlang-one-dark",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "rlang-one-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rlang-one-dark-color-theme.json"
+      }
+    ]
+  }
+}

@@ -560,6 +560,8 @@
 			"scope": [
 				"keyword.control.r",
 				"keyword.control.flow.return.r",
+				"keyword.control.conditional.if.r",
+				"keyword.control.conditional.else.r",
 				"source.r"
 			],
 			"settings": {
@@ -609,6 +611,14 @@
 			}
 		},
 		{
+			"name": "R - Storage Types",
+			"scope": ["storage.type.r", "meta.function-call.r storage.type.r"],
+			"settings": {
+				"foreground": "#E5C07B",
+				"fontStyle": "normal"
+			}
+		},
+		{
 			"name": "R - Constants",
 			"scope": ["punctuation.separator.parameters.r"],
 			"settings": {
@@ -628,7 +638,8 @@
 			"name": "R - Assignment Operators",
 			"scope": ["keyword.operator.assignment.r"],
 			"settings": {
-				"foreground": "#B4A7FF"
+				"foreground": "#E5C07B",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -648,9 +659,16 @@
 		},
 		{
 			"name": "R - Dollar Accessor",
-			"scope": ["keyword.accessor.dollar.r", "punctuation.accessor.colons.r"],
+			"scope": ["keyword.accessor.dollar.r"],
 			"settings": {
 				"foreground": "#E5C07B"
+			}
+		},
+		{
+			"name": "R - Colon Accessor",
+			"scope": ["punctuation.accessor.colons.r"],
+			"settings": {
+				"foreground": "#C77B8B"
 			}
 		},
 		{
@@ -685,16 +703,8 @@
 			"name": "R - Roxygen Comments",
 			"scope": ["comment.line.roxygen.r", "punctuation.definition.comment.r"],
 			"settings": {
-				"foreground": "#6B7B7A",
+				"foreground": "#5C6370",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "R - Storage Types",
-			"scope": ["storage.type.r"],
-			"settings": {
-				"foreground": "#C678DD",
-				"fontStyle": "normal"
 			}
 		},
 		{
@@ -703,6 +713,14 @@
 			"settings": {
 				"foreground": "#61AFEF",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "R - Regular Comments",
+			"scope": ["comment.line.number-sign.r"],
+			"settings": {
+				"foreground": "#5C6370",
+				"fontStyle": "italic"
 			}
 		},
 		{

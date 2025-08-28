@@ -539,6 +539,17 @@
 			}
 		},
 		{
+			"name": "R - Loop Keywords",
+			"scope": [
+				"keyword.control.loop.for.r",
+				"keyword.control.loop.while.r"
+			],
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "R - Quotes",
 			"scope": [
 				"punctuation.definition.string.begin.r",

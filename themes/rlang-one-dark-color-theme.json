@@ -1527,7 +1527,12 @@
 		},
 		{
 			"name": "Python - Function Parameters",
-			"scope": ["variable.parameter.function.python", "variable.parameter.function-call.python"],
+			"scope": [
+				"variable.parameter.function.python", 
+				"variable.parameter.function-call.python",
+				"variable.parameter.function.language.python",
+				"meta.function.parameters.python"
+			],
 			"settings": {
 				"foreground": "#E06C75"
 			}

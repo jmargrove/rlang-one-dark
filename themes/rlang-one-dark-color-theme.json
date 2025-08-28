@@ -1193,6 +1193,234 @@
 			}
 		},
 		{
+			"name": "Quarto - Headers",
+			"scope": [
+				"markup.heading.quarto",
+				"entity.name.section.quarto",
+				"punctuation.definition.heading.quarto"
+			],
+			"settings": {
+				"foreground": "#E06C75",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Quarto - Bold",
+			"scope": ["markup.bold.quarto", "punctuation.definition.bold.quarto"],
+			"settings": {
+				"foreground": "#D19A66",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Quarto - Italic", 
+			"scope": ["markup.italic.quarto"],
+			"settings": {
+				"foreground": "#ABB2BF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Quarto - Links",
+			"scope": ["markup.underline.link.quarto"],
+			"settings": {
+				"foreground": "#61AFEF",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Quarto - Inline Code",
+			"scope": ["markup.inline.raw.quarto", "markup.inline.raw.string.quarto"],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"name": "Quarto - Code Blocks",
+			"scope": ["markup.raw.block.quarto", "markup.fenced_code.block.quarto"],
+			"settings": {
+				"foreground": "#98C379"
+			}
+		},
+		{
+			"name": "Quarto - List Markers",
+			"scope": ["punctuation.definition.list.begin.quarto"],
+			"settings": {
+				"foreground": "#E06C75",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Quarto - List Text",
+			"scope": ["meta.paragraph.quarto markup.list.unnumbered.quarto"],
+			"settings": {
+				"foreground": "#ABB2BF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Quarto - Frontmatter Delimiters",
+			"scope": [
+				"punctuation.definition.begin.frontmatter",
+				"punctuation.definition.end.frontmatter"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "Quarto - YAML Keys in Frontmatter",
+			"scope": ["entity.name.tag.yaml"],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "Quarto - YAML Key-Value Separator",
+			"scope": ["punctuation.separator.key-value.mapping.yaml"],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "Quarto - Image Links",
+			"scope": ["markup.underline.link.image.quarto"],
+			"settings": {
+				"foreground": "#61AFEF",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Quarto - Image Link Titles",
+			"scope": ["meta.image.inline.markdown.quarto string.other.link.description.title"],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Quarto - Image Link Punctuation",
+			"scope": ["meta.image.inline.markdown.quarto punctuation.definition.link"],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Quarto - Math Block Delimiters",
+			"scope": [
+				"keyword.control.import.math.begin.quarto",
+				"keyword.control.import.math.end.quarto",
+				"punctuation.definition.math.begin.quarto",
+				"punctuation.definition.math.end.quarto"
+			],
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Quarto - Math Functions",
+			"scope": [
+				"support.function.math.quarto",
+				"support.function.latex.quarto",
+				"entity.name.function.math.quarto",
+				"entity.name.function.math.tex",
+				"storage.type.function.math.tex"
+			],
+			"settings": {
+				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"name": "Quarto - Math Operators",
+			"scope": [
+				"keyword.operator.math.quarto",
+				"punctuation.math.operator.quarto"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Quarto - Math Variables",
+			"scope": [
+				"variable.math.quarto",
+				"variable.parameter.math.quarto",
+				"variable.other.math.quarto"
+			],
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Quarto - Math Constants",
+			"scope": [
+				"constant.numeric.math.quarto",
+				"constant.math.quarto"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Quarto - Math Keywords",
+			"scope": [
+				"keyword.other.math.quarto",
+				"storage.type.math.quarto"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Quarto - Math Brackets",
+			"scope": [
+				"punctuation.definition.group.math.quarto",
+				"meta.group.braces.math.quarto",
+				"meta.group.brackets.math.quarto"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Quarto - Math Block Content",
+			"scope": [
+				"markup.math.block.quarto"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "Quarto - Math Function Content",
+			"scope": [
+				"meta.function.math.tex",
+				"meta.embedded.math.quarto"
+			],
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"name": "Quarto - Math Text Content",
+			"scope": [
+				"text.html.quarto"
+			],
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"name": "Quarto - Shortcode Keywords",
+			"scope": [
+				"keyword.control.import.shortcode"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
 			"name": "Import References",
 			"scope": ["keyword.control.import.reference"],
 			"settings": {

@@ -1169,9 +1169,61 @@
 		},
 		{
 			"name": "Docker - Instructions",
-			"scope": ["keyword.control.dockerfile", "support.function.dockerfile"],
+			"scope": ["keyword.control.dockerfile", "support.function.dockerfile", "keyword.other.special-method.dockerfile"],
+			"settings": {
+				"foreground": "#2496ED",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Docker - Image Names",
+			"scope": ["entity.name.type.base-image.dockerfile", "entity.name.image.dockerfile"],
+			"settings": {
+				"foreground": "#E06C75",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Docker - Variables",
+			"scope": ["variable.other.dockerfile", "variable.language.dockerfile"],
 			"settings": {
 				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Docker - Strings",
+			"scope": ["string.quoted.double.dockerfile", "string.quoted.single.dockerfile"],
+			"settings": {
+				"foreground": "#98C379"
+			}
+		},
+		{
+			"name": "Docker - Comments",
+			"scope": ["comment.line.number-sign.dockerfile"],
+			"settings": {
+				"foreground": "#7B8FA6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Docker - Shell Commands",
+			"scope": ["meta.instruction.run.dockerfile"],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "Docker - Operators",
+			"scope": ["keyword.operator.dockerfile"],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"name": "Docker - Flags",
+			"scope": ["constant.other.dockerfile"],
+			"settings": {
+				"foreground": "#D19A66"
 			}
 		}
 	]

@@ -972,6 +972,13 @@
 			}
 		},
 		{
+			"name": "Shell - Export Modifier",
+			"scope": ["storage.modifier.export.shell"],
+			"settings": {
+				"foreground": "#35B4C5"
+			}
+		},
+		{
 			"name": "CSS - Selectors",
 			"scope": [
 				"entity.name.tag.css",

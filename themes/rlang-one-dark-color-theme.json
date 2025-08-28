@@ -1622,17 +1622,18 @@
 			}
 		},
 		{
-			"name": "Python - Method Calls",
-			"scope": ["meta.attribute.python"],
-			"settings": {
-				"foreground": "#56B6C2"
-			}
-		},
-		{
 			"name": "Python - Function Call Arguments",
 			"scope": ["meta.function-call.arguments.python"],
 			"settings": {
 				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "Python - Class Property Access",
+			"scope": ["meta.attribute.python", "meta.member.access.python"],
+			"settings": {
+				"foreground": "#E5C07B",
+				"fontStyle": "bold"
 			}
 		},
 		{

@@ -2387,6 +2387,359 @@
 			"settings": {
 				"foreground": "#98C379"
 			}
+		},
+		{
+			"name": "Rust - Comments",
+			"scope": [
+				"comment.line.double-slash.rust",
+				"comment.block.rust",
+				"punctuation.definition.comment.rust"
+			],
+			"settings": {
+				"foreground": "#7B8FA6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust - Doc Comments",
+			"scope": [
+				"comment.line.documentation.rust",
+				"comment.block.documentation.rust"
+			],
+			"settings": {
+				"foreground": "#7B8FA6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust - Keywords",
+			"scope": [
+				"keyword.control.rust",
+				"keyword.other.rust",
+				"keyword.other.crate.rust",
+				"keyword.other.unsafe.rust",
+				"keyword.other.fn.rust",
+				"keyword.other.rust storage.type.rust"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Rust - Storage Keywords (let, fn, struct, enum, trait, impl, type, mod, const, static)",
+			"scope": [
+				"storage.type.rust",
+				"storage.type.function.rust",
+				"storage.type.struct.rust",
+				"storage.type.enum.rust",
+				"storage.type.trait.rust",
+				"storage.type.impl.rust",
+				"storage.type.type.rust",
+				"storage.type.module.rust",
+				"storage.type.core.rust",
+				"storage.type.mod.rust",
+				"storage.type.union.rust",
+				"storage.modifier.rust",
+				"storage.modifier.mut.rust",
+				"storage.modifier.pub.rust",
+				"storage.modifier.async.rust",
+				"storage.modifier.dyn.rust"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Rust - Operators",
+			"scope": [
+				"keyword.operator.rust",
+				"keyword.operator.arithmetic.rust",
+				"keyword.operator.assignment.rust",
+				"keyword.operator.comparison.rust",
+				"keyword.operator.logical.rust",
+				"keyword.operator.bitwise.rust",
+				"keyword.operator.borrow.rust",
+				"keyword.operator.borrow.and.rust",
+				"keyword.operator.dereference.rust",
+				"keyword.operator.access.dot.rust",
+				"keyword.operator.misc.rust",
+				"keyword.operator.range.rust",
+				"keyword.operator.arrow.skinny.rust",
+				"keyword.operator.arrow.fat.rust",
+				"keyword.operator.question.rust",
+				"keyword.operator.sigil.rust",
+				"keyword.operator.namespace.rust"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"name": "Rust - Punctuation",
+			"scope": [
+				"punctuation.comma.rust",
+				"punctuation.semi.rust",
+				"punctuation.brackets.angle.rust",
+				"punctuation.brackets.round.rust",
+				"punctuation.brackets.square.rust",
+				"punctuation.brackets.curly.rust",
+				"punctuation.separator.rust",
+				"punctuation.separator.colon.rust",
+				"punctuation.separator.namespace.rust",
+				"punctuation.separator.dot.rust"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "Rust - Function Definitions",
+			"scope": [
+				"entity.name.function.rust",
+				"meta.function.definition.rust entity.name.function.rust"
+			],
+			"settings": {
+				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"name": "Rust - Function Calls",
+			"scope": [
+				"meta.function-call.rust",
+				"support.function.rust",
+				"support.function.std.rust",
+				"variable.function.rust",
+				"entity.name.function.rust meta.function-call.rust"
+			],
+			"settings": {
+				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"name": "Rust - Macros",
+			"scope": [
+				"entity.name.function.macro.rust",
+				"support.macro.rust",
+				"meta.macro.rust entity.name.function.rust",
+				"entity.name.function.preprocessor.rust",
+				"entity.name.function.preprocessor"
+			],
+			"settings": {
+				"foreground": "#56B6C2",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust - Types (struct, enum, trait, alias)",
+			"scope": [
+				"entity.name.type.rust",
+				"entity.name.type.struct.rust",
+				"entity.name.type.enum.rust",
+				"entity.name.type.trait.rust",
+				"entity.name.type.impl.rust",
+				"entity.name.type.type.rust",
+				"entity.name.type.union.rust",
+				"entity.name.type.class.rust",
+				"entity.name.type.module.rust",
+				"entity.name.class.rust",
+				"support.class.rust",
+				"entity.other.inherited-class.rust"
+			],
+			"settings": {
+				"foreground": "#E5C07B"
+			}
+		},
+		{
+			"name": "Rust - Primitive Types",
+			"scope": [
+				"support.type.primitive.rust",
+				"entity.name.type.primitive.rust",
+				"entity.name.type.numeric.rust",
+				"support.type.rust",
+				"storage.type.primitive.rust"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"name": "Rust - Modules and Namespaces",
+			"scope": [
+				"entity.name.module.rust",
+				"entity.name.namespace.rust",
+				"entity.name.type.module.rust",
+				"meta.path.rust entity.name.module.rust"
+			],
+			"settings": {
+				"foreground": "#E5C07B"
+			}
+		},
+		{
+			"name": "Rust - Lifetimes",
+			"scope": [
+				"storage.modifier.lifetime.rust",
+				"entity.name.type.lifetime.rust",
+				"entity.name.lifetime.rust",
+				"punctuation.definition.lifetime.rust",
+				"punctuation.definition.lifetime.begin.rust"
+			],
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust - Self and Super",
+			"scope": [
+				"variable.language.self.rust",
+				"variable.language.super.rust",
+				"variable.language.crate.rust",
+				"variable.language.rust"
+			],
+			"settings": {
+				"foreground": "#E06C75",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust - Variables",
+			"scope": [
+				"variable.other.rust",
+				"variable.other.readwrite.rust",
+				"variable.other.local.rust"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "Rust - Parameters",
+			"scope": [
+				"variable.parameter.rust",
+				"meta.function.definition.rust variable.parameter.rust"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "Rust - Properties and Fields",
+			"scope": [
+				"variable.other.property.rust",
+				"variable.other.member.rust",
+				"meta.struct.rust variable.other.member.rust",
+				"variable.other.field.rust"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "Rust - Enum Members",
+			"scope": [
+				"variable.other.enummember.rust",
+				"constant.other.enummember.rust",
+				"entity.name.variable.enum-member.rust"
+			],
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"name": "Rust - Constants",
+			"scope": [
+				"constant.other.caps.rust",
+				"constant.other.rust",
+				"variable.other.constant.rust",
+				"constant.language.rust",
+				"constant.language.boolean.rust",
+				"constant.language.unit.rust"
+			],
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"name": "Rust - Numbers",
+			"scope": [
+				"constant.numeric.rust",
+				"constant.numeric.decimal.rust",
+				"constant.numeric.integer.rust",
+				"constant.numeric.float.rust",
+				"constant.numeric.hex.rust",
+				"constant.numeric.binary.rust",
+				"constant.numeric.octal.rust",
+				"entity.name.type.numeric.suffix.rust"
+			],
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"name": "Rust - Strings and Chars",
+			"scope": [
+				"string.quoted.double.rust",
+				"string.quoted.single.rust",
+				"string.quoted.byte.raw.rust",
+				"string.quoted.double.raw.rust",
+				"string.quoted.rust",
+				"punctuation.definition.string.rust",
+				"punctuation.definition.string.begin.rust",
+				"punctuation.definition.string.end.rust",
+				"punctuation.definition.string.raw.rust",
+				"string.rust"
+			],
+			"settings": {
+				"foreground": "#98C379"
+			}
+		},
+		{
+			"name": "Rust - Escapes and Format Specifiers",
+			"scope": [
+				"constant.character.escape.rust",
+				"constant.other.placeholder.rust",
+				"string.interpolated.rust punctuation.definition.interpolation.rust",
+				"punctuation.definition.interpolation.rust"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"name": "Rust - Attributes (#[derive])",
+			"scope": [
+				"meta.attribute.rust",
+				"punctuation.definition.attribute.rust",
+				"punctuation.brackets.attribute.rust",
+				"meta.attribute.rust support.function.attribute.rust",
+				"entity.name.function.attribute.rust",
+				"support.function.attribute.rust",
+				"variable.annotation.rust",
+				"meta.annotation.rust"
+			],
+			"settings": {
+				"foreground": "#E8913C"
+			}
+		},
+		{
+			"name": "Rust - Attribute Contents",
+			"scope": [
+				"meta.attribute.rust string.quoted.double.rust",
+				"meta.attribute.rust variable.other.rust"
+			],
+			"settings": {
+				"foreground": "#98C379"
+			}
+		},
+		{
+			"name": "Rust - Invalid / Unsafe",
+			"scope": [
+				"invalid.illegal.rust",
+				"invalid.deprecated.rust"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
 		}
 	]
 }

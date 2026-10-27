@@ -2740,6 +2740,353 @@
 			"settings": {
 				"foreground": "#C678DD"
 			}
+		},
+		{
+			"name": "TS/TSX - Base punctuation & plain text",
+			"scope": [
+				"source.ts punctuation",
+				"source.tsx punctuation",
+				"source.ts meta.brace",
+				"source.tsx meta.brace",
+				"source.ts meta.delimiter",
+				"source.tsx meta.delimiter",
+				"source.tsx meta.jsx.children"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "TS/TSX - Keywords & storage",
+			"scope": [
+				"source.ts keyword.control",
+				"source.tsx keyword.control",
+				"source.ts storage.type",
+				"source.tsx storage.type",
+				"source.ts storage.modifier",
+				"source.tsx storage.modifier",
+				"source.ts keyword.operator.new",
+				"source.tsx keyword.operator.new",
+				"source.ts keyword.operator.expression",
+				"source.tsx keyword.operator.expression",
+				"source.ts keyword.operator.type.annotation.ts",
+				"source.ts keyword.control.as",
+				"source.tsx keyword.control.as",
+				"source.ts keyword.control.satisfies",
+				"source.tsx keyword.control.satisfies"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "TS/TSX - Operators",
+			"scope": [
+				"source.ts keyword.operator",
+				"source.tsx keyword.operator",
+				"source.ts storage.type.function.arrow",
+				"source.tsx storage.type.function.arrow"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"name": "TS/TSX - Type annotation punctuation",
+			"scope": [
+				"source.ts keyword.operator.type",
+				"source.tsx keyword.operator.type",
+				"source.ts meta.type.annotation punctuation",
+				"source.tsx meta.type.annotation punctuation",
+				"source.ts keyword.operator.optional",
+				"source.tsx keyword.operator.optional"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "TS/TSX - Types",
+			"scope": [
+				"source.ts entity.name.type",
+				"source.tsx entity.name.type",
+				"source.ts support.type.builtin",
+				"source.tsx support.type.builtin",
+				"source.ts entity.other.inherited-class",
+				"source.tsx entity.other.inherited-class",
+				"source.ts meta.type.annotation entity.name.type",
+				"source.tsx meta.type.annotation entity.name.type",
+				"source.ts support.class",
+				"source.tsx support.class"
+			],
+			"settings": {
+				"foreground": "#E5C07B"
+			}
+		},
+		{
+			"name": "TS/TSX - Primitive types",
+			"scope": [
+				"source.ts support.type.primitive",
+				"source.tsx support.type.primitive",
+				"source.ts keyword.operator.type.primitive",
+				"source.tsx keyword.operator.type.primitive",
+				"source.ts meta.type.annotation support.type.primitive",
+				"source.tsx meta.type.annotation support.type.primitive"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"name": "TS/TSX - Type parameters",
+			"scope": [
+				"source.ts entity.name.type.parameter",
+				"source.tsx entity.name.type.parameter"
+			],
+			"settings": {
+				"foreground": "#E5C07B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "TS/TSX - Variables",
+			"scope": [
+				"source.ts variable.other.readwrite",
+				"source.tsx variable.other.readwrite",
+				"source.ts variable.other.object",
+				"source.tsx variable.other.object",
+				"source.ts meta.definition.variable variable",
+				"source.tsx meta.definition.variable variable",
+				"source.ts variable.other.constant",
+				"source.tsx variable.other.constant",
+				"source.ts meta.template.expression",
+				"source.tsx meta.template.expression"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "TS/TSX - Properties",
+			"scope": [
+				"source.ts variable.other.property",
+				"source.tsx variable.other.property",
+				"source.ts support.variable.property",
+				"source.tsx support.variable.property",
+				"source.ts meta.object-literal.key",
+				"source.tsx meta.object-literal.key",
+				"source.ts meta.field.declaration variable",
+				"source.tsx meta.field.declaration variable"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "TS/TSX - Parameters",
+			"scope": [
+				"source.ts variable.parameter",
+				"source.tsx variable.parameter",
+				"source.ts meta.parameters variable",
+				"source.tsx meta.parameters variable"
+			],
+			"settings": {
+				"foreground": "#D19A66",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "TS/TSX - Functions",
+			"scope": [
+				"source.ts entity.name.function",
+				"source.tsx entity.name.function",
+				"source.ts meta.function-call entity.name.function",
+				"source.tsx meta.function-call entity.name.function",
+				"source.ts support.function",
+				"source.tsx support.function",
+				"source.ts meta.definition.function entity.name.function",
+				"source.tsx meta.definition.function entity.name.function",
+				"source.ts meta.definition.method entity.name.function",
+				"source.tsx meta.definition.method entity.name.function"
+			],
+			"settings": {
+				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"name": "TS/TSX - Language vars & constants",
+			"scope": [
+				"source.ts variable.language",
+				"source.tsx variable.language"
+			],
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "TS/TSX - Constants",
+			"scope": [
+				"source.ts constant.language",
+				"source.tsx constant.language",
+				"source.ts constant.numeric",
+				"source.tsx constant.numeric",
+				"source.ts support.constant",
+				"source.tsx support.constant"
+			],
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"name": "TS/TSX - Built-in objects",
+			"scope": [
+				"source.ts support.variable",
+				"source.tsx support.variable",
+				"source.ts support.class.builtin",
+				"source.tsx support.class.builtin"
+			],
+			"settings": {
+				"foreground": "#E5C07B"
+			}
+		},
+		{
+			"name": "TS/TSX - Strings",
+			"scope": [
+				"source.ts string",
+				"source.tsx string",
+				"source.ts punctuation.definition.string",
+				"source.tsx punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#98C379"
+			}
+		},
+		{
+			"name": "TS/TSX - Template expression delimiters",
+			"scope": [
+				"source.ts punctuation.definition.template-expression",
+				"source.tsx punctuation.definition.template-expression"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "TS/TSX - Regex",
+			"scope": [
+				"source.ts string.regexp",
+				"source.tsx string.regexp",
+				"source.ts string.regexp punctuation",
+				"source.tsx string.regexp punctuation"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"name": "TS/TSX - Comments",
+			"scope": [
+				"source.ts comment",
+				"source.tsx comment",
+				"source.ts punctuation.definition.comment",
+				"source.tsx punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#7B8FA6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "TS/TSX - JSDoc",
+			"scope": [
+				"source.ts comment storage.type",
+				"source.tsx comment storage.type",
+				"source.ts comment entity.name.type",
+				"source.tsx comment entity.name.type"
+			],
+			"settings": {
+				"foreground": "#C678DD",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "TS/TSX - Decorators",
+			"scope": [
+				"source.ts meta.decorator",
+				"source.tsx meta.decorator",
+				"source.ts meta.decorator entity.name.function",
+				"source.tsx meta.decorator entity.name.function",
+				"source.ts meta.decorator punctuation",
+				"source.tsx meta.decorator punctuation"
+			],
+			"settings": {
+				"foreground": "#E8913C"
+			}
+		},
+		{
+			"name": "TSX - JSX tags (lowercase)",
+			"scope": [
+				"source.tsx entity.name.tag",
+				"source.jsx entity.name.tag",
+				"source.tsx support.class.component",
+				"source.tsx meta.tag entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "TSX - JSX components (capitalised)",
+			"scope": [
+				"source.tsx support.class.component",
+				"source.tsx entity.name.tag support.class.component",
+				"source.tsx meta.tag support.class.component"
+			],
+			"settings": {
+				"foreground": "#E5C07B"
+			}
+		},
+		{
+			"name": "TSX - JSX tag punctuation",
+			"scope": [
+				"source.tsx punctuation.definition.tag",
+				"source.tsx meta.tag punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"name": "TSX - JSX attributes",
+			"scope": [
+				"source.tsx entity.other.attribute-name",
+				"source.tsx meta.tag.attributes variable.other.readwrite"
+			],
+			"settings": {
+				"foreground": "#D19A66",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "TSX - JSX embedded braces",
+			"scope": [
+				"source.tsx punctuation.section.embedded.begin",
+				"source.tsx punctuation.section.embedded.end"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "TSX - JSX text",
+			"scope": [
+				"source.tsx meta.jsx.children",
+				"source.tsx meta.jsx.children.tsx"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
 		}
 	]
 }
